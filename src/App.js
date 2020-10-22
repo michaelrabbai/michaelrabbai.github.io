@@ -156,7 +156,8 @@ const App = () => {
               <div>
                 <p>
                   My main interests lay in <b>front end development</b> with tools such as <b>HTML5, CSS3, 
-                  Handlebars, JavaScript (ES6),</b> and the <b>EmberJS framework</b>.
+                  JavaScript (ES6)</b>, and the <b>React</b> framework. Additionally, I'm working with <b>Handlebars</b> for
+                  templating and the <b>Ember</b> JavaScript framework.
                 </p>
               </div>
               <div className="tech-icons">
