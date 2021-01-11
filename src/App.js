@@ -144,8 +144,8 @@ const App = () => {
               <div>
                 <p>
                   I’m Michael - an amibitious fourth year student studying in an <b>Honours Bachelor of 
-                  Computer Science</b> degree at <b>Carleton University</b> in Ottawa, Canada. I’m currently on co-op
-                  as a front end developer at Ciena Canada.
+                  Computer Science</b> degree at <b>Carleton University</b> in Ottawa, Canada. I just finished a co-op
+                  as a front end developer at Ciena Canada and I'm looking for a <b>co-op/internship for Summer 2021.</b>
                 </p>
               </div>
               <div className="pro-icons">
@@ -156,7 +156,7 @@ const App = () => {
               <div>
                 <p>
                   My main interests lay in <b>front end development</b> with tools such as <b>HTML5, CSS3, 
-                  JavaScript (ES6)</b>, and the <b>React</b> framework. Additionally, I'm working with <b>Handlebars</b> for
+                  JavaScript (ES6)</b>, and the <b>React</b> framework. Additionally, I've worked with <b>Handlebars</b> for
                   templating and the <b>Ember</b> JavaScript framework.
                 </p>
               </div>
