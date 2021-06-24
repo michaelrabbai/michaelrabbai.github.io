@@ -128,7 +128,7 @@ const App = () => {
         </div>
         <div className="social-icons">
           <SocialIcon icon={faLinkedin} link='https://www.linkedin.com/in/michael-rabbai/'/>
-          <SocialIcon icon={faGithub} link='https://github.com/michael-rabbai9/'/>
+          <SocialIcon icon={faGithub} link='https://github.com/michaelrabbai/'/>
           <SocialIcon icon={faEnvelope} link='mailto:michael.rabbai@gmail.com'/>
         </div>
       </div>
