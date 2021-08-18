@@ -182,7 +182,7 @@ const App = () => {
       <div className="footer">
         <div className="container">
           <p>
-            © 2020 Michael Rabbai
+            © 2021 Michael Rabbai
           </p>
         </div>
       </div>
