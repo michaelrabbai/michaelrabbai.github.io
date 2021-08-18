@@ -158,9 +158,9 @@ const App = () => {
               <BreakSmall/>
               <div>
                 <p>
-                  My main interests lay in <b>front end development</b> with tools such as <b>HTML5, CSS3, 
-                  JavaScript (ES6)</b>, and the <b>React</b> framework. Additionally, I've worked with <b>Handlebars</b> for
-                  templating and the <b>Ember</b> JavaScript framework.
+                  My main interests lay in <b>front-end development</b> with tools such as the <b>React and React Native</b>
+                  Javascript frameworks, <b>JavaScript (ES6), HTML5, CSS3</b>. Additionally, I've worked with <b>Handlebars</b>
+                  {' '}for templating and the <b>Ember</b> JavaScript framework.
                 </p>
               </div>
               <div className="tech-icons">
