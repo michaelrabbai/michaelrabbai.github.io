@@ -164,12 +164,12 @@ const App = () => {
                 </p>
               </div>
               <div className="tech-icons">
+                <Icon className="icon" type="iconify" icon={reactIcon}/>
+                <Icon className="icon" type="iconify" icon={javascriptIcon}/>
                 <Icon className="icon" type="iconify" icon={html5}/>
                 <Icon className="icon" type="iconify" icon={css3}/>
                 <Icon className="icon" type="iconify" icon={handlebarsIcon}/>
-                <Icon className="icon" type="iconify" icon={javascriptIcon}/>
                 <Icon className="icon" icon={emberIcon}/>
-                <Icon className="icon" type="iconify" icon={reactIcon}/>
               </div>
               <p>
                 I’m currently learning <b>React</b> and plan on learning <b>React Native</b> to expand my knowledge and 
