@@ -87,11 +87,11 @@ const App = () => {
             <div className="info">
               <div>
                 <p>
-                  I'm Michael - an ambitious fourth-year student pursuing an{' '}
-                  <b>Honours Bachelor of Computer Science</b> degree at{' '}
-                  <b>Carleton University</b> in Ottawa, Canada; I'm{' '}
-                  <b>graduating in December 2021</b>. I'm currently seeking{' '}
-                  <b>full-time employment for January 2022</b>. I've completed
+                  I'm Michael - an ambitious fourth-year student pursuing an
+                  {' '}<b>Honours Bachelor of Computer Science</b> degree at
+                  {' '}<b>Carleton University</b> in Ottawa, Canada; I'm
+                  {' '}<b>graduating in December 2021</b>. I'm currently seeking
+                  {' '}<b>full-time employment for January 2022</b>. I've completed
                   internships with Ciena and Communications Research Centre
                   Canada.
                 </p>
