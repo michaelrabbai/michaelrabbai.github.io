@@ -172,8 +172,8 @@ const App = () => {
                 <Icon className="icon" icon={emberIcon}/>
               </div>
               <p>
-                I’m currently learning <b>React</b> and plan on learning <b>React Native</b> to expand my knowledge and 
-                enter the field of mobile development.
+                I’ve created projects with <b>React</b> and <b>React Native</b> but continue to expand my knowledge in both the
+                {' '}<b>web development</b> and <b>mobile development</b> fields.
               </p>
             </div>
           </div>
