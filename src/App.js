@@ -14,6 +14,7 @@ import codeTagOpen from './assets/code-tag-open.svg'
 import codeTagClose from './assets/code-tag-close.svg'
 import profilePic from './assets/linkedin-profile-picture.jpg'
 import cuIcon from './assets/cu-icon.svg'
+import crcIcon from './assets/crc.png'
 import cienaIcon from './assets/ciena.svg'
 import {Icon as IconifyIcon} from '@iconify/react'
 import html5 from '@iconify/icons-logos/html-5'
@@ -152,6 +153,7 @@ const App = () => {
               <div className="pro-icons">
                 <Icon className="icon" icon={cuIcon}/>
                 <Icon className="icon" icon={cienaIcon}/>
+                <Icon className="icon" icon={crcIcon}/>
               </div>
               <BreakSmall/>
               <div>
