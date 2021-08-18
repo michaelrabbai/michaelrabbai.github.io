@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "94843ec48f3bd14cf8f577dfa136ea54",
+    "revision": "e6694f00b02e6ff402641434b60fcad9",
     "url": "/index.html"
   },
   {
-    "revision": "155f37b74e282435cd54",
-    "url": "/static/css/main.50a3898d.chunk.css"
+    "revision": "1cc5357418136eab4a6f",
+    "url": "/static/css/main.488bc202.chunk.css"
   },
   {
-    "revision": "600b987eca7da9157524",
-    "url": "/static/js/2.09db2e46.chunk.js"
+    "revision": "6288ea34d27a08367933",
+    "url": "/static/js/2.24710742.chunk.js"
   },
   {
     "revision": "fdc84dfb581e6fb8755dd1b2b01a50e1",
-    "url": "/static/js/2.09db2e46.chunk.js.LICENSE.txt"
+    "url": "/static/js/2.24710742.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "155f37b74e282435cd54",
-    "url": "/static/js/main.b1881b43.chunk.js"
+    "revision": "1cc5357418136eab4a6f",
+    "url": "/static/js/main.5b13c047.chunk.js"
   },
   {
     "revision": "5284eec07972ace79c95",
@@ -48,7 +48,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/static/media/linkedin-profile-picture.f0ac21ff.jpg"
   },
   {
-    "revision": "8603087bb194dee1e0a2a1d1fb34da78",
-    "url": "/static/media/resume.8603087b.pdf"
+    "revision": "37d2e5020ca7a3deed784402716936b8",
+    "url": "/static/media/resume.37d2e502.pdf"
   }
 ]);
