@@ -1,18 +1,18 @@
-import React from 'react'
-import Typed from 'react-typed'
+import React from 'react';
+import Typed from 'react-typed';
 
-const TypedContainer = ({words}) => {
+const TypedContainer = ({ words }) => {
   return (
     <Typed
-        strings={words}
-        typeSpeed={80}
-        backSpeed={50}
-        smartBackspace={true}
-        backDelay={1000}
-        loop={true}
-        showCursor={false}
+      strings={words}
+      typeSpeed={80}
+      backSpeed={50}
+      smartBackspace={true}
+      backDelay={500}
+      loop={true}
+      showCursor={false}
     />
-  )
-}
+  );
+};
 
-export default TypedContainer
+export default TypedContainer;
