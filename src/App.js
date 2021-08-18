@@ -124,7 +124,7 @@ const App = () => {
         <ParticleContainer/>
         <div className="intro-text-box">
           <h1 className="intro-text">Hi, I'm <span className="accent-blue">Michael</span></h1>
-          <h4>I'm a <TypedContainer words={words.intro}/></h4>
+          <h3>I'm a <TypedContainer words={words.intro}/></h3>
         </div>
         <div className="social-icons">
           <SocialIcon icon={faLinkedin} link='https://www.linkedin.com/in/michael-rabbai/'/>
