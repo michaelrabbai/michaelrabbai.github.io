@@ -171,10 +171,13 @@ const App = () => {
                 <Icon className="icon" type="iconify" icon={handlebarsIcon}/>
                 <Icon className="icon" icon={emberIcon}/>
               </div>
-              <p>
-                I’ve created projects with <b>React</b> and <b>React Native</b> but continue to expand my knowledge in both the
-                {' '}<b>web development</b> and <b>mobile development</b> fields.
-              </p>
+              <BreakSmall/>
+              <div>
+                <p>
+                  I’ve created projects with <b>React</b> and <b>React Native</b> but continue to expand my knowledge in both the
+                  {' '}<b>web development</b> and <b>mobile development</b> fields.
+                </p>
+              </div>
             </div>
           </div>
         </div>
