@@ -2,15 +2,15 @@
 
 /* colors */
 * {
-  --blue: #146DE1;
-  --light-blue: #2F80ED;
-  --lightest-blue: #3986EE;
+  --blue: #146de1;
+  --light-blue: #2f80ed;
+  --lightest-blue: #3986ee;
   --black: #000;
-  --dark-grey: #1A1A1A;
+  --dark-grey: #1a1a1a;
   --grey: #303030;
-  --light-grey: #7F8C8D;
-  --lightest-grey: #95A5A6;
-  --white: #F5F6FA;
+  --light-grey: #7f8c8d;
+  --lightest-grey: #95a5a6;
+  --white: #f5f6fa;
 }
 
 /* components */
@@ -57,7 +57,8 @@
 }
 
 /* global */
-img, svg {
+img,
+svg {
   object-fit: contain;
 }
 
@@ -65,7 +66,8 @@ html {
   scroll-behavior: smooth;
 }
 
-html, body {
+html,
+body {
   height: 100% !important;
 }
 
@@ -99,7 +101,9 @@ p {
   color: var(--lightest-blue);
 }
 
-.link, .link:link, .link:visited {
+.link,
+.link:link,
+.link:visited {
   color: var(--white);
   text-decoration: none;
   outline: 0;
@@ -107,7 +111,8 @@ p {
   transition: color 0.2s ease;
 }
 
-.link:hover, .link:active {
+.link:hover,
+.link:active {
   color: var(--blue);
 }
 
@@ -257,7 +262,7 @@ p {
 }
 
 .info {
-  width: 100%
+  width: 100%;
 }
 
 .info p {
@@ -306,7 +311,7 @@ p {
 }
 
 /* mobile version styles */
-@media(max-width: 768px) { 
+@media (max-width: 768px) {
   .container {
     width: 90%;
   }
