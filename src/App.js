@@ -16,7 +16,7 @@ import ParticleContainer from './components/containers/particle-container';
 import TypedContainer from './components/containers/typed-container';
 import SocialIcon from './components/SocialIcon';
 import Break from './components/Break';
-import profilePic from './assets/linkedin-profile-picture.jpg';
+import profilePic from './assets/2021-pfp.jpg';
 import BreakSmall from './components/BreakSmall';
 import cuIcon from './assets/cu-icon.svg';
 import cienaIcon from './assets/ciena.svg';
@@ -87,11 +87,11 @@ const App = () => {
             <div className="info">
               <div>
                 <p>
-                  I'm Michael - an ambitious fourth-year student pursuing an
-                  {' '}<b>Honours Bachelor of Computer Science</b> degree at
-                  {' '}<b>Carleton University</b> in Ottawa, Canada; I'm
-                  {' '}<b>graduating in December 2021</b>. I'm currently seeking
-                  {' '}<b>full-time employment for January 2022</b>. I've completed
+                  I'm Michael - an ambitious fourth-year student pursuing an{' '}
+                  <b>Honours Bachelor of Computer Science</b> degree at{' '}
+                  <b>Carleton University</b> in Ottawa, Canada; I'm{' '}
+                  <b>graduating in December 2021</b>. I'm currently seeking{' '}
+                  <b>full-time employment for January 2022</b>. I've completed
                   internships with Ciena and Communications Research Centre
                   Canada.
                 </p>
