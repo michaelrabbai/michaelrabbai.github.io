@@ -93,7 +93,7 @@ const App = () => {
                   <b>graduating in December 2021</b>. I'm currently seeking{' '}
                   <b>full-time employment for January 2022</b>. I've completed
                   internships with Ciena and Communications Research Centre
-                  Canada.
+                  Canada. 
                 </p>
               </div>
               <div className="pro-icons">
