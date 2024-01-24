@@ -2,7 +2,9 @@ import React from 'react';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import reactIcon from '@iconify/icons-logos/react';
+import angularIcon from '@iconify/icons-logos/angular-icon';
 import javascriptIcon from '@iconify/icons-logos/javascript';
+import typescriptIcon from '@iconify/icons-logos/typescript-icon';
 import html5 from '@iconify/icons-logos/html-5';
 import css3 from '@iconify/icons-logos/css-3';
 import handlebarsIcon from '@iconify/icons-logos/handlebars';
@@ -116,11 +118,13 @@ const App = () => {
               </div>
               <div className="tech-icons">
                 <Icon className="icon" type="iconify" icon={reactIcon} />
+                <Icon className="icon" type="iconify" icon={angularIcon} />
                 <Icon className="icon" type="iconify" icon={javascriptIcon} />
-                <Icon className="icon" type="iconify" icon={html5} />
-                <Icon className="icon" type="iconify" icon={css3} />
-                <Icon className="icon" type="iconify" icon={handlebarsIcon} />
-                <Icon className="icon" icon={emberIcon} />
+                <Icon className="icon" type="iconify" icon={typescriptIcon} />
+                {/* <Icon className="icon" type="iconify" icon={html5} /> */}
+                {/* <Icon className="icon" type="iconify" icon={css3} /> */}
+                {/* <Icon className="icon" type="iconify" icon={handlebarsIcon} /> */}
+                {/* <Icon className="icon" icon={emberIcon} /> */}
               </div>
               <BreakSmall />
               <div>
