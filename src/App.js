@@ -26,11 +26,13 @@ import emberIcon from './assets/ember-icon.svg';
 const App = () => {
   const words = {
     intro: [
+      '<span class="accent-lightest-blue">front-end enthusiast</span>',
       '<span class="accent-lightest-blue">programmer</span>',
       '<span class="accent-lightest-blue">designer</span>',
       '<span class="accent-lightest-blue">leader</span>',
-      '<span class="accent-lightest-blue">teammate</span>',
-      '<span class="accent-lightest-blue">dark mode enthusiast</span>',
+      '<span class="accent-lightest-blue">dark mode enjoyer</span>',
+      '<span class="accent-lightest-blue">bundle of serotonin</span>',
+      '<span class="accent-lightest-blue">climber and snowboarder</span>'
     ],
   };
 
