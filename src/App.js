@@ -91,13 +91,18 @@ const App = () => {
             <div className="info">
               <div>
                 <p>
-                  I'm Michael - an ambitious fourth-year student pursuing an{' '}
-                  <b>Honours Bachelor of Computer Science</b> degree at{' '}
-                  <b>Carleton University</b> in Ottawa, Canada; I'm{' '}
-                  <b>graduating in December 2021</b>. I'm currently seeking{' '}
-                  <b>full-time employment for January 2022</b>. I've completed
-                  internships with Ciena and Communications Research Centre
-                  Canada. 
+                  I'm Michael - a software developer and active sports
+                  enthusiast! I'm currently seeking{' '}
+                  <b>
+                    front-end development
+                    <br />
+                    full-time employment
+                  </b>
+                  . I've previously worked for Solace, Ciena, and Communications
+                  Research Centre Canada;
+                  <br />I also have an{' '}
+                  <b>Honours Bachelor of Computer Science</b> degree from{' '}
+                  <b>Carleton University</b>;
                 </p>
               </div>
               <div className="pro-icons">
