@@ -106,11 +106,12 @@ const App = () => {
               <BreakSmall />
               <div>
                 <p>
-                  My main interests lay in <b>front-end development</b> with
-                  tools such as the <b>React and React Native</b> Javascript
-                  frameworks, <b>JavaScript (ES6), HTML5, CSS3</b>.
-                  Additionally, I've worked with <b>Handlebars</b> for
-                  templating and the <b>Ember</b> JavaScript framework.
+                  My main interests are <b>front-end and mobile development</b>{' '}
+                  with tools such as <b>React</b>, <b>React Native</b>,{' '}
+                  <b>Angular</b>, <b>JavaScript (ES6)</b>, and <b>TypeScript</b>
+                  . Additionally, I've worked with the <b>Ember</b> and{' '}
+                  <b>Aurelia</b> JavaScript frameworks and <b>Handlebars</b> for
+                  templating.
                 </p>
               </div>
               <div className="tech-icons">
