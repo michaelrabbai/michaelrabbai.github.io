@@ -114,7 +114,13 @@ p {
 }
 
 .intro-text {
+  font-size: 3.5rem;
   font-weight: 500;
+}
+
+.intro-typed-text{
+  font-size: 1.6rem;
+  padding-left: 0.1875rem; /* intro text and intro type text left align */
 }
 
 .header .social-icons {

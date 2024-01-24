@@ -52,12 +52,12 @@ const App = () => {
       <div className="header">
         <ParticleContainer />
         <div className="intro-text-box">
-          <h1 className="intro-text">
+          <span className="intro-text">
             Hi, I'm <span className="accent-blue">Michael</span>
-          </h1>
-          <h3>
+          </span>
+          <span className='intro-typed-text'>
             I'm a <TypedContainer words={words.intro} />
-          </h3>
+          </span>
         </div>
         <div className="social-icons">
           <SocialIcon
