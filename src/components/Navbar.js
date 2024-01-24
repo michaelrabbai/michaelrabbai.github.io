@@ -1,15 +1,16 @@
 import React from 'react';
 
+import classes from './Navbar.module.css';
 import resume from '../resources/resume.pdf';
 
 const Navbar = () => {
   return (
-    <nav className="navbar">
-      <div className="container nav-container">
-        <a href="#header" id="logo" className="accent-blue">
+    <nav className={classes.navbar}>
+      <div className={classes.container}>
+        <a href="#header" id={classes.logo} className="accent-blue">
           <b>Michael Rabbai</b>
         </a>
-        <ul className="main-nav">
+        <ul className={classes.nav}>
           <li>
             <a href="#about" className="link">
               About

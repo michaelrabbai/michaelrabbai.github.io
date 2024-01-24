@@ -1,20 +1,21 @@
 import React from 'react';
 
+import classes from './BreakSmall.module.css';
 import CodeTag from './CodeTag';
 import codeTagOpen from '../assets/code-tag-open.svg';
 import codeTagClose from '../assets/code-tag-close.svg';
 
 const BreakSmall = () => {
   return (
-    <div className="break-container">
+    <div className={classes.container}>
       <CodeTag
-        id="code-tag-icon-open-small"
+        id={classes.codeTagIconOpenSmall}
         icon={codeTagOpen}
         altText="opening code tag"
       />
-      <hr className="break-small" />
+      <hr className={classes.breakSmall} />
       <CodeTag
-        id="code-tag-icon-close-small"
+        id={classes.codeTagIconCloseSmall}
         icon={codeTagClose}
         altText="closing code tag"
       />

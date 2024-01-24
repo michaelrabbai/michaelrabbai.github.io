@@ -1,0 +1,25 @@
+.container {
+  display: flex;
+  flex-direction: row;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  align-items: center;
+  width: 100%;
+}
+
+#codeTagIconOpen {
+  height: 1.5rem;
+  width: 1.5rem !important;
+}
+
+#codeTagIconClose {
+  height: 2.5rem;
+  width: 2.5rem !important;
+}
+
+.break {
+  border: 4px dotted var(--black);
+  border-style: none none dotted;
+  flex-grow: 1;
+  width: calc(100% - 64px);
+}
