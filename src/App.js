@@ -136,7 +136,7 @@ const App = () => {
       </div>
       <div className="footer">
         <div className="container">
-          <p>© 2021 Michael Rabbai</p>
+          <p>© 2024 Michael Rabbai</p>
         </div>
       </div>
     </div>
