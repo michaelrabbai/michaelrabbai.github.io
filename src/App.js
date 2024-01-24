@@ -20,9 +20,10 @@ import SocialIcon from './components/SocialIcon';
 import Break from './components/Break';
 import profilePic from './assets/2021-pfp.jpg';
 import BreakSmall from './components/BreakSmall';
-import cuIcon from './assets/cu-icon.svg';
+import solaceIcon from './assets/solace.png';
 import cienaIcon from './assets/ciena.svg';
 import crcIcon from './assets/crc.png';
+import cuIcon from './assets/cu-icon.svg';
 import emberIcon from './assets/ember-icon.svg';
 
 const App = () => {
@@ -106,9 +107,10 @@ const App = () => {
                 </p>
               </div>
               <div className="pro-icons">
-                <Icon className="icon" icon={cuIcon} />
+                <Icon className="icon" icon={solaceIcon} />
                 <Icon className="icon" icon={cienaIcon} />
                 <Icon className="icon" icon={crcIcon} />
+                <Icon className="icon" icon={cuIcon} />
               </div>
               <BreakSmall />
               <div>
