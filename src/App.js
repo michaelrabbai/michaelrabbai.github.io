@@ -5,9 +5,9 @@ import reactIcon from '@iconify/icons-logos/react';
 import angularIcon from '@iconify/icons-logos/angular-icon';
 import javascriptIcon from '@iconify/icons-logos/javascript';
 import typescriptIcon from '@iconify/icons-logos/typescript-icon';
-import html5 from '@iconify/icons-logos/html-5';
-import css3 from '@iconify/icons-logos/css-3';
-import handlebarsIcon from '@iconify/icons-logos/handlebars';
+// import html5 from '@iconify/icons-logos/html-5';
+// import css3 from '@iconify/icons-logos/css-3';
+// import handlebarsIcon from '@iconify/icons-logos/handlebars';
 
 import './App.css';
 import IconFontAwesome from './components/IconFontAwesome';
@@ -20,11 +20,12 @@ import SocialIcon from './components/SocialIcon';
 import Break from './components/Break';
 import profilePic from './assets/2021-pfp.jpg';
 import BreakSmall from './components/BreakSmall';
+import rossIcon from './assets/ross-video.svg'
 import solaceIcon from './assets/solace.png';
+// import emberIcon from './assets/ember-icon.svg';
 import cienaIcon from './assets/ciena.svg';
 import crcIcon from './assets/crc.png';
 import cuIcon from './assets/cu-icon.svg';
-import emberIcon from './assets/ember-icon.svg';
 
 const App = () => {
   const rawWords = [
@@ -104,7 +105,7 @@ const App = () => {
                     <br />
                     full-time employment
                   </b>
-                  . I've previously worked for Solace, Ciena, and Communications
+                  . I've previously worked for Ross Video, Solace, Ciena, and Communications
                   Research Centre Canada;
                   <br />I also have an{' '}
                   <b>Honours Bachelor of Computer Science</b> degree from{' '}
@@ -112,6 +113,7 @@ const App = () => {
                 </p>
               </div>
               <div className="pro-icons">
+                <Icon className="icon" icon={rossIcon} />
                 <Icon className="icon" icon={solaceIcon} />
                 <Icon className="icon" icon={cienaIcon} />
                 <Icon className="icon" icon={crcIcon} />
@@ -122,17 +124,16 @@ const App = () => {
                 <p>
                   My main interests are <b>front-end and mobile development</b>{' '}
                   with tools such as <b>React</b>, <b>React Native</b>,{' '}
-                  <b>Angular</b>, <b>JavaScript (ES6)</b>, and <b>TypeScript</b>
+                  <b>Angular</b>, <b>TypeScript</b>, and <b>JavaScript (ES6)</b>
                   . Additionally, I've worked with the <b>Ember</b> and{' '}
-                  <b>Aurelia</b> JavaScript frameworks and <b>Handlebars</b> for
-                  templating.
+                  <b>Aurelia</b> JavaScript frameworks.
                 </p>
               </div>
               <div className="tech-icons">
                 <Icon className="icon" type="iconify" icon={reactIcon} />
                 <Icon className="icon" type="iconify" icon={angularIcon} />
-                <Icon className="icon" type="iconify" icon={javascriptIcon} />
                 <Icon className="icon" type="iconify" icon={typescriptIcon} />
+                <Icon className="icon" type="iconify" icon={javascriptIcon} />
                 {/* <Icon className="icon" type="iconify" icon={html5} /> */}
                 {/* <Icon className="icon" type="iconify" icon={css3} /> */}
                 {/* <Icon className="icon" type="iconify" icon={handlebarsIcon} /> */}
@@ -143,7 +144,7 @@ const App = () => {
                 <p>
                   I’ve created projects with <b>React</b> and{' '}
                   <b>React Native</b> but continue to expand my knowledge in
-                  both the <b>web development</b> and <b>mobile development</b>{' '}
+                  both the <b>web</b> and <b>mobile development</b>{' '}
                   fields.
                 </p>
               </div>
@@ -153,7 +154,7 @@ const App = () => {
       </div>
       <div className="footer">
         <div className="container">
-          <p>© 2024 Michael Rabbai</p>
+          <p>© 2025 Michael Rabbai</p>
         </div>
       </div>
     </div>
