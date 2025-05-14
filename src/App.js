@@ -27,16 +27,21 @@ import cuIcon from './assets/cu-icon.svg';
 import emberIcon from './assets/ember-icon.svg';
 
 const App = () => {
+  const rawWords = [
+    'software developer',
+    'front-end enthusiast',
+    'designer',
+    'dark mode believer',
+    'bundle of serotonin',
+    'climber and skier/snowboarder'
+  ];
+  
+  const highlights = rawWords.map(word => {
+    return `<span class="accent-lightest-blue">${word}</span>`;
+  })
+
   const words = {
-    intro: [
-      '<span class="accent-lightest-blue">front-end enthusiast</span>',
-      '<span class="accent-lightest-blue">programmer</span>',
-      '<span class="accent-lightest-blue">designer</span>',
-      '<span class="accent-lightest-blue">leader</span>',
-      '<span class="accent-lightest-blue">dark mode enjoyer</span>',
-      '<span class="accent-lightest-blue">bundle of serotonin</span>',
-      '<span class="accent-lightest-blue">climber and snowboarder</span>'
-    ],
+    intro: [...highlights],
   };
 
   const Icon = ({ className, type = '', icon, altText }) => {
