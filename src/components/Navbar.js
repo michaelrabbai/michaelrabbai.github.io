@@ -1,9 +1,10 @@
 import React from 'react';
 
 import classes from './Navbar.module.css';
-import resume from '../resources/resume.pdf';
 
 const Navbar = () => {
+  const resumeUrl = process.env.PUBLIC_URL + '/michael-rabbai-resume.pdf';
+
   return (
     <nav className={classes.navbar}>
       <div className={classes.container}>
@@ -18,7 +19,7 @@ const Navbar = () => {
           </li>
           <li>
             <a
-              href={resume}
+              href={resumeUrl}
               target="_blank"
               rel="external noopener noreferrer"
               className="link"
